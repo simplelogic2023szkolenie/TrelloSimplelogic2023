@@ -29,4 +29,8 @@ public class Config {
     public static String getApiKey() {
         return properties.getProperty("apiKey");
     }
+
+    public static String getOrganisationId() {
+        return properties.getProperty("organisation");
+    }
 }
